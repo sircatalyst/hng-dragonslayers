@@ -6,6 +6,10 @@
 - Install packages
   > `yarn` or `yarn install`
 
+## Workflow
+Make changes to code in `app` directory
+- Start the development server run: `gulp dev-server`
+
 ## Contributions & PRs Guide
 
 `git checkout development`
