@@ -1,3 +1,6 @@
+/*
+ * Base CSS Styling starts here
+ */
 html {
   box-sizing: border-box;
 }
@@ -9,5 +12,27 @@ html {
 }
 
 body {
+  /* @TODO base font style */
   margin: 0;
 }
+
+/*
+ * Utilities
+ */
+
+/*
+ * Layout
+ */
+
+
+/*
+ * Components
+ */
+
+.btn {
+  cursor: pointer;
+}
+
+/*
+ * Animations and state utilities
+ */
