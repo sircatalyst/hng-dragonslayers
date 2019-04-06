@@ -4,6 +4,7 @@ const { src, dest, series, watch } = require('gulp');
 const autoprefixer = require('autoprefixer');
 const postcss = require('gulp-postcss');
 const cssnano = require('cssnano');
+const eslint = require('gulp-eslint');
 
 const { init, reload, stream } = require('browser-sync').create();
 
@@ -36,6 +37,8 @@ function scripts() {
   const { app, dist } = paths;
 
   return src(app.js)
+    .pipe(eslint())
+    .pipe(eslint.format())
     .pipe(dest(dist.js))
     .pipe(stream());
 }
