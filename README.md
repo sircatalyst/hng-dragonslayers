@@ -21,3 +21,5 @@
 > `ds:` changes to documentation
 
 > `rf:` refactoring production code
+
+> `st:` prefix for code style changes like formatting, missing semi colons, etc; no code change
