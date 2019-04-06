@@ -1,0 +1,15 @@
+{
+  "name": "hng-dragonslayers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sarscode/hng-dragonslayers.git",
+  "author": "sarscode <iamsarscode@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.5.0",
+    "browser-sync": "^2.26.3",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0"
+  }
+}
