@@ -20,10 +20,14 @@ Make changes to code in `app` directory
 
 > `ft:` a new feature
 
-> `fx` prefix for a bug fix
+> `fx:` prefix for a bug fix
 
 > `ds:` changes to documentation
 
 > `rf:` refactoring production code
 
 > `st:` prefix for code style changes like formatting, missing semi colons, etc; no code change
+
+## Deployment
+
+Deployed to GitHub Pages: [Click to View](https://sarscode.github.io/hng-dragonslayers/)
