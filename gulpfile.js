@@ -14,7 +14,7 @@ const paths = {
     styles: 'app/css/**/*',
     img: 'app/img/**/*',
     js: 'app/js/**/*',
-    html: 'app/*.html'
+    html: 'app/*'
   },
   dist: {
     styles: 'dist/css',
