@@ -1,0 +1,183 @@
+/*
+ * Base CSS Styls
+ */
+ html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    /* @TODO base font style */
+    color: #222;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  a {
+    color: inherit;
+  }
+  
+  a.btn {
+    text-decoration: none;
+  }
+  
+  /*
+   * Utilities
+   */
+  
+  .h1 {
+    font-size: 3.5rem;
+    color: #DDDDDD;
+    font-weight: 500;
+  }
+  
+  .mt3 {
+    margin-top: 3rem;
+  }
+  
+  .mb3 {
+    margin-bottom: 3rem;
+  }
+  
+  .my2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .p1 {
+    padding: 1rem;
+  }
+  
+  .p5 {
+    padding: 5rem;
+  }
+  
+  .container {
+    margin: auto;
+    width: 100%;
+    padding-bottom: 45px;
+    
+  }
+  
+  .text--small {
+    font-size: 0.9rem;
+    color: #fff;
+  }
+  
+  .text--center {
+    text-align: center;
+  }
+  
+  .text--success {
+    color: #00c7bb;
+  }
+  
+  /*
+   * Layout
+   */
+  .login {
+    display: flex;
+    background-color: #3D403F;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+  }
+  
+  /*
+   * Components
+   */
+  
+  .navbar {
+    background: #056961;
+  }
+  
+  .authcard {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color: #616262;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border: 1px solid #616262;
+    border-radius: 5px;
+    min-height: 48vh;
+    min-width: 100%;
+    padding: 2rem;
+  }
+  
+  .btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.8rem 2rem;
+  }
+  
+  .btn--light {
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    transition: all 0.3s ease-in;
+    width: auto;
+  }
+  
+  .btn--light:hover {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  
+  .authcard__btn {
+    background: #eee;
+    display: block;
+    padding: 1.5rem;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .authcard__or {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .footnote {
+    text-align: center;
+  }
+  
+  .footnote a {
+    text-decoration: none;
+  }
+  
+  a.text--success:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  /*
+   * Animations and state utilities
+   */
+  
+  /*
+    * Media Queries
+      */
+  
+  @media only screen and (min-width: 920px) {
+    .authcard {
+      min-width: 60%;
+      padding: 3rem;
+    }
+  }
+  
+  @media only screen and (min-width: 1120px) {
+    .authcard {
+      min-width: 50%;
+      padding: 3rem;
+    }
+  }
+  
