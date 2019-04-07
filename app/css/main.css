@@ -32,7 +32,7 @@ a.btn {
  */
 
 .h1 {
-  font-size: 3.5rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 
@@ -159,7 +159,13 @@ a.text--success:hover {
 
 /*
   * Media Queries
-	*/
+  */
+
+@media only screen and (min-width: 768px) {
+  .h1 {
+    font-size: 3rem;
+  }
+}
 
 @media only screen and (min-width: 920px) {
   .authcard {
