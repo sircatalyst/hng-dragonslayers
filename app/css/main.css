@@ -1,7 +1,7 @@
 /*
  * Base CSS Styls
  */
-html {
+ html {
   box-sizing: border-box;
 }
 
@@ -33,7 +33,6 @@ a.btn {
 
 .h1 {
   font-size: 3.5rem;
-  color: #DDDDDD;
   font-weight: 500;
 }
 
@@ -60,14 +59,11 @@ a.btn {
 
 .container {
   margin: auto;
-  width: 100%;
-  padding-bottom: 45px;
-  
+  width: 80%;
 }
 
 .text--small {
   font-size: 0.9rem;
-  color: #fff;
 }
 
 .text--center {
@@ -83,7 +79,6 @@ a.btn {
  */
 .login {
   display: flex;
-  background-color: #3D403F;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
@@ -102,9 +97,8 @@ a.btn {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  background-color: #616262;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-  border: 1px solid #616262;
+  border: 1px solid #eee;
   border-radius: 5px;
   min-height: 48vh;
   min-width: 100%;
@@ -155,7 +149,7 @@ a.btn {
 }
 
 a.text--success:hover {
-  color: #fff;
+  color: #056961;
   text-decoration: underline;
 }
 
